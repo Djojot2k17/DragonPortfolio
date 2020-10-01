@@ -123,6 +123,7 @@
     <Content Include="Content\images\light-bulbs.jpg" />
     <Content Include="Content\images\logo-light.png" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\new-york-5185104_1920.jpg" />
     <Content Include="Content\images\overlay.png" />
     <Content Include="Content\images\portfolio\1.jpg" />
     <Content Include="Content\images\portfolio\10.jpg" />
@@ -134,6 +135,7 @@
     <Content Include="Content\images\portfolio\7.jpg" />
     <Content Include="Content\images\portfolio\8.jpg" />
     <Content Include="Content\images\portfolio\9.jpg" />
+    <Content Include="Content\images\seascape-5588651_1920.jpg" />
     <Content Include="Content\images\shape.png" />
     <Content Include="Content\images\sign.png" />
     <Content Include="Content\images\skills.png" />
