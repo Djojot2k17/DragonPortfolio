@@ -81,6 +81,12 @@
     <Content Include="Content\colors\light-yellow.css" />
     <Content Include="Content\colors\purple.css" />
     <Content Include="Content\colors\red.css" />
+    <Content Include="Content\favicon\android-chrome-192x192.png" />
+    <Content Include="Content\favicon\android-chrome-512x512.png" />
+    <Content Include="Content\favicon\apple-touch-icon.png" />
+    <Content Include="Content\favicon\favicon-16x16.png" />
+    <Content Include="Content\favicon\favicon-32x32.png" />
+    <Content Include="Content\favicon\favicon.ico" />
     <Content Include="Content\fonts\ajax-loader.gif" />
     <Content Include="Content\fonts\materialdesignicons-webfont.svg" />
     <Content Include="Content\fonts\Pe-icon-7-stroke.svg" />
@@ -198,6 +204,7 @@
     <Content Include="Content\fonts\Pe-icon-7-stroke.woff" />
     <Content Include="Content\fonts\slick.ttf" />
     <Content Include="Content\fonts\slick.woff" />
+    <Content Include="Content\favicon\site.webmanifest" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\isotope.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
