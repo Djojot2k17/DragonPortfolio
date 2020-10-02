@@ -13,7 +13,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="Content/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Content/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Content/favicon/favicon-16x16.png">
-    <link rel="manifest" href="Content/favicon/site.webmanifest">
     <!-- Bootstrap -->
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <!-- Magnific -->
@@ -698,13 +697,13 @@
             <!--</div>--><!--end row-->
 
             <div class="portfolioContainer row">
-                <div class="col-lg-4 col-md-6 mt-4 pt-2 natural personal">
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="portfolio-box rounded position-relative overflow-hidden">
                         <div class="portfolio-box-img position-relative overflow-hidden">
                             <img src="Content/images/insect-4547314_640.jpg" class="img-fluid" alt="member-image">
                             <div class="overlay-work">
                                 <div class="work-content text-center">
-                                    <a href="images/portfolio/1.jpg" class="text-light work-icon bg-dark d-inline-block rounded-pill mfp-image"><i class="mdi mdi-bug-check-outline"></i></a>
+                                    <div data-toggle="modal" data-target="#bugGoBoomModal" class="text-light work-icon d-inline-block bg-dark rounded-pill"><i class="mdi mdi-bug-check-outline"></i></div>
                                 </div>
                             </div>
                         </div>
@@ -713,15 +712,36 @@
                             <span>Bug Tracker</span>
                         </div>
                     </div>
+                    <!-- Bug go Boom! Modal -->
+                    <div class="modal fade" id="bugGoBoomModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Bug go Boom!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Here's where a description of the project would go.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Here's a link to the site.</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--end bug go boom modal-->
                 </div><!--end col-->
 
-                <div class="col-lg-4 col-md-6 mt-4 pt-2 creative personal photography">
+
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="portfolio-box rounded position-relative overflow-hidden">
                         <div class="portfolio-box-img position-relative overflow-hidden">
                             <img src="Content/images/money-2724241_640.jpg" class="img-fluid" alt="member-image">
                             <div class="overlay-work">
                                 <div class="work-content text-center">
-                                    <a href="http://vimeo.com/287684225" class="play-btn video-play-icon text-light work-icon bg-dark d-inline-block rounded-pill"><i class="mdi mdi-finance"></i></a>
+                                    <div data-toggle="modal" data-target="#moneyTreeModal" class="text-light work-icon bg-dark d-inline-block rounded-pill"><i class="mdi mdi-finance"></i></div>
                                 </div>
                             </div>
                         </div>
@@ -730,15 +750,35 @@
                             <span>Financial Dashboard</span>
                         </div>
                     </div>
+                    <!-- Money Tree Modal -->
+                    <div class="modal fade" id="moneyTreeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Money Tree</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Here's where a description of the project would go.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Here's a link to the site.</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--end money tree modal-->
                 </div><!--end col-->
 
-                <div class="col-lg-4 col-md-6 mt-4 pt-2 natural creative">
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="portfolio-box rounded position-relative overflow-hidden">
                         <div class="portfolio-box-img position-relative overflow-hidden">
                             <img src="Content/images/block-chain-3766427_640.jpg" class="img-fluid" alt="member-image">
                             <div class="overlay-work">
                                 <div class="work-content text-center">
-                                    <a href="images/portfolio/4.jpg" class="text-light work-icon bg-dark d-inline-block rounded-pill mfp-image"><i class="mdi mdi-application"></i></a>
+                                    <div data-toggle="modal" data-target="#moneyTreeApiModal" class="text-light work-icon bg-dark d-inline-block rounded-pill"><i class="mdi mdi-application"></i></div>
                                 </div>
                             </div>
                         </div>
@@ -747,6 +787,26 @@
                             <span>The Seeds of the Financial Dashboard</span>
                         </div>
                     </div>
+                    <!-- Money Tree API Modal -->
+                    <div class="modal fade" id="moneyTreeApiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Money Tree API</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Here's where a description of the project would go.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Here's a link to the site.</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--end money tree api modal-->
                 </div><!--end col-->
 
                 <div class="container mt-5">
@@ -761,13 +821,13 @@
                 </div>
 
 
-                <div class="col-lg-4 col-md-6 mt-4 pt-2  personal photography">
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="portfolio-box rounded position-relative overflow-hidden">
                         <div class="portfolio-box-img position-relative overflow-hidden">
                             <img src="Content/images/matrix-2953869_640.jpg" class="img-fluid" alt="member-image">
                             <div class="overlay-work">
                                 <div class="work-content text-center">
-                                    <a href="images/portfolio/6.jpg" class="text-light work-icon bg-dark d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                    <div data-toggle="modal" data-target="#sumOfAllFearsModal" class="text-light work-icon bg-dark d-inline-block rounded-pill"><i class="mdi mdi-code-tags"></i></div>
                                 </div>
                             </div>
                         </div>
@@ -776,15 +836,35 @@
                             <span>Just some good ol fashioned MinMaxing</span>
                         </div>
                     </div>
+                    <!-- Sum of All Fears Modal -->
+                    <div class="modal fade" id="sumOfAllFearsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The Sum of All Fears</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    It was ehh..
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Here's a link to the site.</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--end sum of all fears modal-->
                 </div><!--end col-->
 
-                <div class="col-lg-4 col-md-6 mt-4 pt-2 creative photography">
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="portfolio-box rounded position-relative overflow-hidden">
                         <div class="portfolio-box-img position-relative overflow-hidden">
                             <img src="Content/images/office-3022335_640.jpg" class="img-fluid" alt="member-image">
                             <div class="overlay-work">
                                 <div class="work-content text-center">
-                                    <a href="http://vimeo.com/287684225" class="play-btn video-play-icon text-light work-icon bg-dark d-inline-block rounded-pill"><i data-feather="video" class="fea icon-sm image-icon"></i></a>
+                                    <div data-toggle="modal" data-target="#textedNumbersModal" class="text-light work-icon bg-dark d-inline-block rounded-pill"><i class="mdi mdi-code-tags"></i></div>
                                 </div>
                             </div>
                         </div>
@@ -793,24 +873,66 @@
                             <span>A number to string converter.</span>
                         </div>
                     </div>
+                    <!-- TextedNumbers Modal -->
+                    <div class="modal fade" id="textedNumbersModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Texted Numbers</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    This was a pretty cool project I did when I was bored.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Here's a link to the site.</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--end texted numbers modal-->
                 </div><!--end col-->
 
-                <div class="col-lg-4 col-md-6 mt-4 pt-2 natural creative">
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="portfolio-box rounded position-relative overflow-hidden">
                         <div class="portfolio-box-img position-relative overflow-hidden">
                             <img src="Content/images/FizzBuzz.jpg" class="img-fluid" alt="member-image">
                             <div class="overlay-work">
                                 <div class="work-content text-center">
-                                    <a href="images/portfolio/5.jpg" class="text-light work-icon bg-dark d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                    <div data-toggle="modal" data-target="#fizzBuzzModal" class="text-light work-icon bg-dark d-inline-block rounded-pill"><i class="mdi mdi-code-tags"></i></div>
                                 </div>
                             </div>
                         </div>
                         <div class="gallary-title py-4 text-center">
-                            <h5><a href="page-portfolio-detail.html" class="title text-dark"> FizzBuzz </a></h5>
-                            <span>Did you know it was also an energy drink?</span>
+                            <h5><a href="page-portfolio-detail.html" class="title text-dark">FizzBuzz</a></h5>
+                            <span>Did you know it was also an Energy Drink?</span>
                         </div>
                     </div>
+                    <!-- Fizz Buzz Modal -->
+                    <div class="modal fade" id="fizzBuzzModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The Fizz</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Gives you WIIIIIINGs!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Here's a link to the site.</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--end fizzbuzz modal-->
                 </div><!--end col-->
+
+                
             </div><!-- End row -->
 
             <div class="row">
@@ -1032,7 +1154,7 @@
                         <div class="content pt-4 pb-4 p-3">
                             <ul class="list-unstyled d-flex justify-content-between post-meta">
                                 <li><i data-feather="user" class="fea icon-sm mr-1"></i><a href="javascript:void(0)" class="text-dark">Denis</a></li>
-                                <li><i data-feather="tag" class="fea icon-sm mr-1"></i><a href="javascript:void(0)" class="text-dark">Tutorials</a></li>
+                                <li><i data-feather="tag" class="fea icon-sm mr-1"></i><a href="javascript:void(0)" class="text-dark">Mental Health</a></li>
                             </ul>
                             <h5 class="mb-3"><a href="page-blog-detail.html" class="title text-dark">How to learn Web Development without losing your mind.</a></h5>
                             <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
