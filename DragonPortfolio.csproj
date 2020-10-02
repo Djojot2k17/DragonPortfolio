@@ -85,6 +85,7 @@
     <Content Include="Content\fonts\materialdesignicons-webfont.svg" />
     <Content Include="Content\fonts\Pe-icon-7-stroke.svg" />
     <Content Include="Content\images\bg-counter.jpg" />
+    <Content Include="Content\images\block-chain-3766427_640.jpg" />
     <Content Include="Content\images\blog\01.jpg" />
     <Content Include="Content\images\blog\02.jpg" />
     <Content Include="Content\images\blog\03.jpg" />
@@ -96,6 +97,7 @@
     <Content Include="Content\images\blog\single-1.jpg" />
     <Content Include="Content\images\boxed.png" />
     <Content Include="Content\images\bug-4344164_640.jpg" />
+    <Content Include="Content\images\business-1839876_640.jpg" />
     <Content Include="Content\images\client\01.jpg" />
     <Content Include="Content\images\client\02.jpg" />
     <Content Include="Content\images\client\03.jpg" />
@@ -108,6 +110,8 @@
     <Content Include="Content\images\client\client-04.png" />
     <Content Include="Content\images\client\client-05.png" />
     <Content Include="Content\images\client\client-06.png" />
+    <Content Include="Content\images\code-1076536_640.jpg" />
+    <Content Include="Content\images\computer-1209641_640.jpg" />
     <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\FizzBuzz.jpg" />
     <Content Include="Content\images\hero.png" />
@@ -126,6 +130,7 @@
     <Content Include="Content\images\light-bulbs.jpg" />
     <Content Include="Content\images\logo-light.png" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\matrix-2953869_640.jpg" />
     <Content Include="Content\images\money-2724241_640.jpg" />
     <Content Include="Content\images\new-york-5185104_1920.jpg" />
     <Content Include="Content\images\office-3022335_640.jpg" />
@@ -144,7 +149,9 @@
     <Content Include="Content\images\shape.png" />
     <Content Include="Content\images\sign.png" />
     <Content Include="Content\images\skills.png" />
+    <Content Include="Content\images\tabsVsSpaces.png" />
     <Content Include="Content\images\testi.png" />
+    <Content Include="Content\images\web-design-2038872_640.jpg" />
     <Content Include="Content\magnific-popup.css" />
     <Content Include="Content\materialdesignicons.min.css" />
     <Content Include="Content\owl.carousel.min.css" />
