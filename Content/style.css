@@ -1607,9 +1607,6 @@ p {
   }
 }
 
-#about {
-    background: url('/Content/images/avenue-3464777_1920.jpg');
-}
 
 .about-hero:before {
   content: '';
