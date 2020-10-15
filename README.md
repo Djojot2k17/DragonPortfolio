@@ -5,4 +5,4 @@
  
  Here you'll find the files I used to get the site up and running. 
  
- For hosting, I used [Netlify](https://www.netlify.com/). Really awesome service. 
+ For hosting, I used [Netlify](https://www.netlify.com/). A really awesome hosting solution. 
