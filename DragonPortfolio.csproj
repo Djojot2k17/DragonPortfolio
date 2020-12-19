@@ -137,6 +137,7 @@
     <Content Include="Content\images\logo-light.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\matrix-2953869_640.jpg" />
+    <Content Include="Content\images\metronic.PNG" />
     <Content Include="Content\images\money-2724241_640.jpg" />
     <Content Include="Content\images\new-york-5185104_1920.jpg" />
     <Content Include="Content\images\office-3022335_640.jpg" />
@@ -151,10 +152,12 @@
     <Content Include="Content\images\portfolio\7.jpg" />
     <Content Include="Content\images\portfolio\8.jpg" />
     <Content Include="Content\images\portfolio\9.jpg" />
+    <Content Include="Content\images\rockhard.PNG" />
     <Content Include="Content\images\seascape-5588651_1920.jpg" />
     <Content Include="Content\images\shape.png" />
     <Content Include="Content\images\sign.png" />
     <Content Include="Content\images\skills.png" />
+    <Content Include="Content\images\swagger.PNG" />
     <Content Include="Content\images\tabsVsSpaces.png" />
     <Content Include="Content\images\testi.png" />
     <Content Include="Content\images\web-design-2038872_640.jpg" />
